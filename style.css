@@ -67,6 +67,9 @@ li {
     background-color: #008AD8;
 }
 
+#goals-div p {
+    font-weight: bold;
+}
 
 #goals-section {
     
@@ -104,4 +107,9 @@ li {
     header img {
         margin-bottom: 10px;
     }
+}
+
+footer p {
+    color: white;
+    text-align: center;
 }
