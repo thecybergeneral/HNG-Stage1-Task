@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: skyblue;
+    font-family: arial, sans-serif;
+}
+
+header {
+    background-color: skyblue;
+    color: #008AD8;   
+}
+
+header h1 {
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#info-div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+header, p {
+    padding: 10px;
+}
+
+#goals-div {
+    background: white;
+}
+
+#goals-div p {
+    color: skyblue;
+}
+
+
+li {
+    color: skyblue;
+    padding: 0.5px;
+    margin: 0.5rem 0;
+}
+
+#goals-div li a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+#goals-div  h2 {
+    text-align: center;
+    color: skyblue;
+    font-size: 50px;
+}
+
+#goals-div li a:hover {
+    background-color: #008AD8;
+}
+
+
+#goals-section {
+    
+    padding: 30px;
+    background-color: white;
+}
+
+#links-section h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#links {
+    text-align: center;    
+    display: flex;
+    justify-content: center;
+}
+
+#links a {
+    text-decoration: none;
+    color: white;
+}
+#links a:hover{
+    background-color: #008AD8;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #info-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header img {
+        margin-bottom: 10px;
+    }
+}
